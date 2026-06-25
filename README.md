@@ -2,13 +2,13 @@
 
 # 👋 Hey, I'm Abdul Rehman
 
-### Senior Cloud & DevOps Engineer
+### Senior DevOps / DevSecOps Engineer
 
 *Building scalable infrastructure • Automating everything • Security in the pipeline*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdul-rehman-a197a32b5) [![Email](https://img.shields.io/badge/Email-Say_Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdulrehman.devops@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Live-22d3ee?style=for-the-badge&logo=vercel&logoColor=black)](https://portfolio-alpha-cyan-35.vercel.app/)
 
-**[View Full Portfolio](https://portfolio-alpha-cyan-35.vercel.app/)**
+**[View Full Portfolio](https://abdulrehman-devops.duckdns.org/)**
 
 ---
 
@@ -148,6 +148,6 @@ I'm a **DevOps Engineer** with hands-on experience designing, securing, and oper
 
 **Have a project in mind?** [Let's talk](mailto:abdulrehman.devops@gmail.com)
 
-**[Visit my portfolio](https://portfolio-alpha-cyan-35.vercel.app/)**
+**[Visit my portfolio](https://abdulrehman-devops.duckdns.org/)**
 
 </div>
