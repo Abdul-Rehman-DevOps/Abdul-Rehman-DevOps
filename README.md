@@ -8,7 +8,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdul-rehman-a197a32b5) [![Email](https://img.shields.io/badge/Email-Say_Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdulrehman.devops@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Live-22d3ee?style=for-the-badge&logo=vercel&logoColor=black)](https://portfolio-alpha-cyan-35.vercel.app/)
 
-**[View Full Portfolio](https://abdulrehman-devops.duckdns.org/)**
+**[View Full Portfolio](https://www.abdulrehman.cz//)**
 
 ---
 
@@ -124,7 +124,7 @@ I'm a **DevOps Engineer** with hands-on experience designing, securing, and oper
 
 [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io) [![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com) [![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)](https://sonarqube.org)
 
-*Full stack on my portfolio:* [portfolio-alpha-cyan-35.vercel.app](https://portfolio-alpha-cyan-35.vercel.app/)
+*Full stack on my portfolio:* [portfolio-alpha-cyan-35.vercel.app]([https://portfolio-alpha-cyan-35.vercel.app/])
 
 ---
 
@@ -148,6 +148,6 @@ I'm a **DevOps Engineer** with hands-on experience designing, securing, and oper
 
 **Have a project in mind?** [Let's talk](mailto:abdulrehman.devops@gmail.com)
 
-**[Visit my portfolio](https://abdulrehman-devops.duckdns.org/)**
+**[Visit my portfolio](https://www.abdulrehman.cz//)**
 
 </div>
