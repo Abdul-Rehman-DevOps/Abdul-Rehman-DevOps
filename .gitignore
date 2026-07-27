@@ -14,3 +14,4 @@ inspect_ref.py
 rebuild_from_reference.py
 generate_profile_assets.py
 generate_architecture_diagram.py
+check_remote.py
