@@ -7,6 +7,7 @@ ref-github.json
 ref-projects.json
 resume_text.txt
 preview-dark.png
+preview-face.png
 merged.json
 out/
 __pycache__/
@@ -24,7 +25,8 @@ check_remote.py
 IMG_3213*.png
 IMG_3213*.JPG
 
-# Legacy projects panel (replaced by experience/skills)
+# Legacy / removed sections
 projects.json
 projects/
 .github/scripts/
+profile-3d-contrib/

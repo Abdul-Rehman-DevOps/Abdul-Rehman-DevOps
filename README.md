@@ -1,4 +1,4 @@
-<!-- 1. HERO -->
+<!-- 1. HERO — terminal profile with animated load -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dark.svg" />
@@ -10,11 +10,11 @@
 <!-- 2. STREAK -->
 <div align="center">
   <a href="https://github.com/Abdul-Rehman-DevOps">
-    <img width="100%" src="https://streak-stats.demolab.com/?user=Abdul-Rehman-DevOps&amp;hide_border=true&amp;background=0A101F&amp;stroke=22D3EE&amp;ring=A78BFA&amp;fire=10B981&amp;currStreakLabel=22D3EE&amp;sideLabels=94A3B8&amp;currStreakNum=F8FAFC&amp;sideNums=F8FAFC&amp;dates=64748B&amp;titleColor=22D3EE&amp;card_width=1180" alt="GitHub streak — total contributions, current streak, longest streak" />
+    <img width="100%" src="https://streak-stats.demolab.com/?user=Abdul-Rehman-DevOps&amp;hide_border=true&amp;background=0A101F&amp;stroke=22D3EE&amp;ring=A78BFA&amp;fire=10B981&amp;currStreakLabel=22D3EE&amp;sideLabels=94A3B8&amp;currStreakNum=F8FAFC&amp;sideNums=F8FAFC&amp;dates=64748B&amp;titleColor=22D3EE&amp;card_width=1180" alt="GitHub streak" />
   </a>
 </div>
 
-<!-- 3. STATS + LANGUAGES (shion.dev mirror — official vercel.app is paused) -->
+<!-- 3. STATS + LANGUAGES -->
 <br/>
 <div align="center">
   <img height="170" src="https://github-readme-stats.shion.dev/api?username=Abdul-Rehman-DevOps&amp;show_icons=true&amp;count_private=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;title_color=22D3EE&amp;icon_color=A78BFA&amp;text_color=94A3B8&amp;bg_color=0A101F" alt="GitHub stats" />
@@ -31,17 +31,13 @@
   </picture>
 </div>
 
-<!-- 5. 3D CONTRIBUTION -->
+<!-- 5. PLATFORM (high-level cloud / technical modules — replaces empty 3D placeholder) -->
 <br/>
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-    <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%" />
-  </picture>
+  <img width="100%" src="./platform/platform.svg" alt="Platform capabilities" />
 </div>
 
-<!-- 6. COMPANY EXPERIENCE -->
+<!-- 6. EXPERIENCE -->
 <br/>
 <div align="center">
   <img width="100%" src="./experience/experience.svg" alt="Company experience" />
