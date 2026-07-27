@@ -21,7 +21,14 @@ def gh(url):
         return json.load(r)
 
 def main():
-    with open("projects.json") as f:
+    if not os.path.exists("projects.json"):
+        print(
+            "error: projects.json not found in repo root. "
+            "Commit projects.json on main before running this workflow.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    with open("projects.json", encoding="utf-8") as f:
         projects = json.load(f)
     for p in projects:
         repo = p.get("repo", "").strip()
