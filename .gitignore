@@ -15,3 +15,6 @@ rebuild_from_reference.py
 generate_profile_assets.py
 generate_architecture_diagram.py
 check_remote.py
+build_profile_with_photo.py
+IMG_3213*.png
+IMG_3213*.JPG
