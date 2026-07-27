@@ -1,4 +1,4 @@
-# Ignore local reference / temp assets
+# Local / reference only (never commit)
 frames/
 *.mp4
 ref-assets/
@@ -10,11 +10,21 @@ preview-dark.png
 merged.json
 out/
 __pycache__/
+*.pyc
+
+# Build helpers
+build_profile_with_photo.py
+make_preview.py
+verify_photo.py
 inspect_ref.py
 rebuild_from_reference.py
 generate_profile_assets.py
 generate_architecture_diagram.py
 check_remote.py
-build_profile_with_photo.py
 IMG_3213*.png
 IMG_3213*.JPG
+
+# Legacy projects panel (replaced by experience/skills)
+projects.json
+projects/
+.github/scripts/

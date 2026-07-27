@@ -7,11 +7,8 @@ on:
   push:
     branches: [main]
     paths:
-      - "projects.json"
-      - "logos/**"
       - "README.md"
       - ".github/workflows/profile.yml"
-      - ".github/scripts/**"
 
 concurrency:
   group: profile-assets
@@ -44,16 +41,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Generate projects panel
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python3 .github/scripts/fetch_data.py
-          mkdir -p out projects
-          python3 .github/scripts/generate_projects.py merged.json out
-          cp out/projects.svg projects/projects.svg
-          cp out/projects-light.svg projects/projects-light.svg
-
       - name: Stage generated assets
         run: |
           mkdir -p snake
@@ -61,7 +48,6 @@ jobs:
           cp dist/snake-dark.svg snake/snake-dark.svg
           git add snake/snake-light.svg snake/snake-dark.svg
           git add profile-3d-contrib || true
-          git add projects/projects.svg projects/projects-light.svg
 
       - name: Commit and push (single update)
         run: |
