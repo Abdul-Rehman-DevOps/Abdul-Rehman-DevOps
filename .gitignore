@@ -1,0 +1,9 @@
+# Ignore local reference / temp assets
+frames/
+*.mp4
+ref-readme.md
+ref-github.json
+ref-projects.json
+resume_text.txt
+preview-dark.png
+__pycache__/
