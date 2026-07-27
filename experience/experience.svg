@@ -1,37 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="554" viewBox="0 0 1180 554" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" role="img" aria-label="Company experience">
-  <rect width="1180" height="554" rx="14" fill="#070B16"/>
-  <text x="28" y="36" font-size="13" letter-spacing="3" fill="#22D3EE">EXPERIENCE.LOG  ./career.sh --companies</text>
-  <text x="1152" y="36" text-anchor="end" font-size="11" fill="#64748B">5 roles</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="648" viewBox="0 0 1180 648" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" role="img" aria-label="Experience">
+  <rect width="1180" height="648" rx="14" fill="#070B16" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.5"/>
+  <text x="28" y="34" font-size="13" letter-spacing="2" fill="#22D3EE">$ ./career.sh --experience --verbose</text>
+  <text x="1152" y="34" text-anchor="end" font-size="11" fill="#64748B">
+    loading roles…
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="2"/>
+  </text>
+  <line x1="28" y1="48" x2="1152" y2="48" stroke="#A78BFA" stroke-opacity="0.35">
+    <animate attributeName="x2" from="28" to="1152" dur="1.2s" fill="freeze"/>
+  </line>
   
-  <rect x="28" y="70" width="1124" height="78" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.4"/>
-  <text x="48" y="98" font-size="18" font-weight="700" fill="#F8FAFC">ChainGPT</text>
-  <text x="48" y="120" font-size="13" fill="#22D3EE">Senior DevOps Engineer</text>
-  <text x="1128" y="98" text-anchor="end" font-size="12" fill="#A78BFA">01/2026 — Present</text>
-  <text x="48" y="138" font-size="12" fill="#94A3B8">Web3 AI infra · Terraform · Vault · DevSecOps</text>
-
-  <rect x="28" y="162" width="1124" height="78" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.4"/>
-  <text x="48" y="190" font-size="18" font-weight="700" fill="#F8FAFC">Funavry Technologies</text>
-  <text x="48" y="212" font-size="13" fill="#22D3EE">Senior DevOps Engineer</text>
-  <text x="1128" y="190" text-anchor="end" font-size="12" fill="#A78BFA">01/2026 — Present</text>
-  <text x="48" y="230" font-size="12" fill="#94A3B8">EKS · Istio · GitOps · Karpenter · Defguard</text>
-
-  <rect x="28" y="254" width="1124" height="78" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.4"/>
-  <text x="48" y="282" font-size="18" font-weight="700" fill="#F8FAFC">IKONIC</text>
-  <text x="48" y="304" font-size="13" fill="#22D3EE">DevOps Engineer</text>
-  <text x="1128" y="282" text-anchor="end" font-size="12" fill="#A78BFA">03/2025 — 01/2026</text>
-  <text x="48" y="322" font-size="12" fill="#94A3B8">EKS/AKS · GPU AI · GitHub Actions · Docker</text>
-
-  <rect x="28" y="346" width="1124" height="78" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.4"/>
-  <text x="48" y="374" font-size="18" font-weight="700" fill="#F8FAFC">Forbmax</text>
-  <text x="48" y="396" font-size="13" fill="#22D3EE">DevOps Engineer</text>
-  <text x="1128" y="374" text-anchor="end" font-size="12" fill="#A78BFA">08/2023 — 03/2025</text>
-  <text x="48" y="414" font-size="12" fill="#94A3B8">Jenkins · SonarQube · Trivy · ArgoCD · K8s</text>
-
-  <rect x="28" y="438" width="1124" height="78" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.4"/>
-  <text x="48" y="466" font-size="18" font-weight="700" fill="#F8FAFC">Onyx Tech</text>
-  <text x="48" y="488" font-size="13" fill="#22D3EE">Linux System Administrator</text>
-  <text x="1128" y="466" text-anchor="end" font-size="12" fill="#A78BFA">2022 — 2023</text>
-  <text x="48" y="506" font-size="12" fill="#94A3B8">RHEL · LVM · networking · backups · hardening</text>
-
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.60s" fill="freeze"/>
+    <rect x="28" y="70" width="1124" height="110" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.4"/>
+    <text x="48" y="96" font-size="17" font-weight="700" fill="#F8FAFC">ChainGPT</text>
+    <text x="48" y="116" font-size="12" fill="#22D3EE">Senior DevOps Engineer  ·  Islamabad</text>
+    <text x="1128" y="96" text-anchor="end" font-size="12" fill="#A78BFA">01/2026 — Present</text>
+    <text x="56" y="122" font-size="12" fill="#94A3B8">▸ Web3 AI infra: RPC / validator / archive nodes with hardened OS + private networking</text><text x="56" y="140" font-size="12" fill="#94A3B8">▸ Modular Terraform + remote state locking + env isolation for auditable deploys</text><text x="56" y="158" font-size="12" fill="#94A3B8">▸ Vault / Cloud Secrets + IAM least-privilege + DevSecOps SAST / image scans</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.60s" fill="freeze"/>
+    <rect x="28" y="194" width="1124" height="110" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.4"/>
+    <text x="48" y="220" font-size="17" font-weight="700" fill="#F8FAFC">Funavry Technologies</text>
+    <text x="48" y="240" font-size="12" fill="#22D3EE">Senior DevOps Engineer  ·  Islamabad · AIVM platform</text>
+    <text x="1128" y="220" text-anchor="end" font-size="12" fill="#A78BFA">01/2026 — Present</text>
+    <text x="56" y="246" font-size="12" fill="#94A3B8">▸ Production EKS: Karpenter, KEDA, Istio mesh, IRSA, External Secrets, Defguard VPN</text><text x="56" y="264" font-size="12" fill="#94A3B8">▸ GitOps with ArgoCD / Flux across multi-env delivery + progressive rollouts</text><text x="56" y="282" font-size="12" fill="#94A3B8">▸ CI/CD on GitHub Actions + AWS CodePipeline; Lambda ops automation</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.95s" dur="0.60s" fill="freeze"/>
+    <rect x="28" y="318" width="1124" height="92" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.4"/>
+    <text x="48" y="344" font-size="17" font-weight="700" fill="#F8FAFC">IKONIC</text>
+    <text x="48" y="364" font-size="12" fill="#22D3EE">DevOps Engineer  ·  Islamabad</text>
+    <text x="1128" y="344" text-anchor="end" font-size="12" fill="#A78BFA">03/2025 — 01/2026</text>
+    <text x="56" y="370" font-size="12" fill="#94A3B8">▸ GPU AI workloads on AWS EKS + Azure AKS; Docker Swarm for Laravel services</text><text x="56" y="388" font-size="12" fill="#94A3B8">▸ GitHub Actions multi-env pipelines with security gates and cloud hardening</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.30s" dur="0.60s" fill="freeze"/>
+    <rect x="28" y="424" width="1124" height="92" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.4"/>
+    <text x="48" y="450" font-size="17" font-weight="700" fill="#F8FAFC">Forbmax</text>
+    <text x="48" y="470" font-size="12" fill="#22D3EE">DevOps Engineer  ·  Islamabad</text>
+    <text x="1128" y="450" text-anchor="end" font-size="12" fill="#A78BFA">08/2023 — 03/2025</text>
+    <text x="56" y="476" font-size="12" fill="#94A3B8">▸ End-to-end Jenkins DevSecOps: SonarQube → Trivy/OWASP → Helm → ArgoCD</text><text x="56" y="494" font-size="12" fill="#94A3B8">▸ Prometheus / Grafana observability; Nginx/Traefik ingress; EC2 autoscaling</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.65s" dur="0.60s" fill="freeze"/>
+    <rect x="28" y="530" width="1124" height="74" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.4"/>
+    <text x="48" y="556" font-size="17" font-weight="700" fill="#F8FAFC">Onyx Tech</text>
+    <text x="48" y="576" font-size="12" fill="#22D3EE">Linux System Administrator  ·  Lahore</text>
+    <text x="1128" y="556" text-anchor="end" font-size="12" fill="#A78BFA">2022 — 2023</text>
+    <text x="56" y="582" font-size="12" fill="#94A3B8">▸ RHEL 7/8 ops: LVM/RAID, Apache/DNS/NFS, backups, iptables hardening</text>
+  </g>
 </svg>
