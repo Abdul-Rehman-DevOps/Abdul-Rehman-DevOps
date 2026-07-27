@@ -7,11 +7,9 @@
   </picture>
 </p>
 
-<!-- 2. STREAK -->
+<!-- 2. STREAK (custom terminal panel) -->
 <div align="center">
-  <a href="https://github.com/Abdul-Rehman-DevOps">
-    <img width="100%" src="https://streak-stats.demolab.com/?user=Abdul-Rehman-DevOps&amp;hide_border=true&amp;background=0A101F&amp;stroke=22D3EE&amp;ring=A78BFA&amp;fire=10B981&amp;currStreakLabel=22D3EE&amp;sideLabels=94A3B8&amp;currStreakNum=F8FAFC&amp;sideNums=F8FAFC&amp;dates=64748B&amp;titleColor=22D3EE&amp;card_width=1180" alt="GitHub streak — total, current, longest" />
-  </a>
+  <img width="100%" src="./streak/streak.svg" alt="Contribution streak" />
 </div>
 
 <!-- 3. CONTRIBUTION SNAKE -->
