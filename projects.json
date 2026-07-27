@@ -1,44 +1,68 @@
 [
   {
-    "name": "log-viewer",
+    "name": "Secure GitOps Platform",
     "repo": "Abdul-Rehman-DevOps/log-viewer",
     "logo": "",
-    "description": "Kubernetes log viewer for DevOps engineers",
-    "tags": ["Go", "Kubernetes", "DevOps"]
+    "description": "ArgoCD/Flux GitOps with env isolation, progressive delivery, and audit-ready rollbacks",
+    "tags": [
+      "ArgoCD",
+      "Kubernetes",
+      "GitOps"
+    ]
   },
   {
-    "name": "Portfolio",
-    "repo": "Abdul-Rehman-DevOps/Portfolio",
-    "logo": "",
-    "description": "Personal portfolio — www.abdulrehman.cz",
-    "tags": ["TypeScript", "Next.js", "Portfolio"]
-  },
-  {
-    "name": "Abdul-Rehman-DevOps",
+    "name": "DevSecOps CI/CD Factory",
     "repo": "Abdul-Rehman-DevOps/Abdul-Rehman-DevOps",
     "logo": "",
-    "description": "GitHub profile — terminal neon DevOps identity",
-    "tags": ["DevOps", "GitOps", "Profile"]
+    "description": "Pipelines with SAST, container scans, policy gates, artifact promotion, and signed releases",
+    "tags": [
+      "GitHub Actions",
+      "Jenkins",
+      "Trivy"
+    ]
   },
   {
-    "name": "Health-Care",
-    "repo": "Abdul-Rehman-DevOps/Health-Care",
+    "name": "EKS Platform Engineering",
+    "repo": "Abdul-Rehman-DevOps/Portfolio",
     "logo": "",
-    "description": "Healthcare application delivery project",
-    "tags": ["TypeScript", "Web", "DevOps"]
+    "description": "Production EKS with Karpenter, Istio mesh, IRSA, External Secrets, and cost-aware autoscaling",
+    "tags": [
+      "EKS",
+      "Istio",
+      "Karpenter"
+    ]
   },
   {
-    "name": "resume",
-    "repo": "Abdul-Rehman-DevOps/resume",
+    "name": "Terraform Multi-Cloud IaC",
+    "repo": "Abdul-Rehman-DevOps/Abdul-Rehman-DevOps",
     "logo": "",
-    "description": "Resume and professional profile assets",
-    "tags": ["Docs", "Career"]
+    "description": "Modular Terraform with remote state, locking, least-privilege IAM, and VPC hardening patterns",
+    "tags": [
+      "Terraform",
+      "AWS",
+      "Azure"
+    ]
   },
   {
-    "name": "School-app",
-    "repo": "Abdul-Rehman-DevOps/School-app",
+    "name": "Observability Stack",
+    "repo": "Abdul-Rehman-DevOps/log-viewer",
     "logo": "",
-    "description": "School management application",
-    "tags": ["JavaScript", "Web"]
+    "description": "Prometheus, Grafana, Loki, Tempo, Alertmanager, and Kiali for metrics, logs, and traces",
+    "tags": [
+      "Prometheus",
+      "Grafana",
+      "Loki"
+    ]
+  },
+  {
+    "name": "Web3 Secure Infra",
+    "repo": "Abdul-Rehman-DevOps/Portfolio",
+    "logo": "",
+    "description": "Hardened RPC/validator nodes, private networking, Vault secrets, and Defguard VPN access",
+    "tags": [
+      "Web3",
+      "Vault",
+      "Defguard"
+    ]
   }
 ]
