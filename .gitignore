@@ -1,9 +1,16 @@
 # Ignore local reference / temp assets
 frames/
 *.mp4
+ref-assets/
 ref-readme.md
 ref-github.json
 ref-projects.json
 resume_text.txt
 preview-dark.png
+merged.json
+out/
 __pycache__/
+inspect_ref.py
+rebuild_from_reference.py
+generate_profile_assets.py
+generate_architecture_diagram.py
