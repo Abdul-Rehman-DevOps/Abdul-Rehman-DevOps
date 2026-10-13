@@ -12,57 +12,57 @@
   <text x="28" y="68" font-size="11" fill="#94A3B8">High-level architecture capabilities — provider-agnostic platform engineering</text>
   
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.20s" dur="0.50s" fill="freeze"/>
-    <rect x="28" y="78" width="368" height="120" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.4"/>
+    <rect x="28" y="78" width="364" height="120" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.4"/>
     <text x="46" y="108" font-size="12" fill="#A78BFA">01</text>
     <text x="46" y="132" font-size="15" font-weight="700" fill="#F8FAFC">Release Engineering</text>
-    <text x="46" y="158" font-size="11" fill="#94A3B8">Test → scan → promote → rollback · GitOps-native delivery</text>
-    <rect x="46" y="174" width="0" height="4" rx="2" fill="#34D399">
-      <animate attributeName="width" from="0" to="332" begin="0.35s" dur="0.9s" fill="freeze"/>
+    <text x="46" y="154" font-size="11" fill="#94A3B8">Test → scan → promote → rollback</text><text x="46" y="169" font-size="11" fill="#94A3B8">GitOps-native delivery</text>
+    <rect x="46" y="182" width="0" height="4" rx="2" fill="#34D399">
+      <animate attributeName="width" from="0" to="328" begin="0.35s" dur="0.9s" fill="freeze"/>
     </rect>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.38s" dur="0.50s" fill="freeze"/>
-    <rect x="412" y="78" width="368" height="120" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.4"/>
-    <text x="430" y="108" font-size="12" fill="#A78BFA">02</text>
-    <text x="430" y="132" font-size="15" font-weight="700" fill="#F8FAFC">Multi-Cloud Control</text>
-    <text x="430" y="158" font-size="11" fill="#94A3B8">Federated identity · network · cost-aware scale across providers</text>
-    <rect x="430" y="174" width="0" height="4" rx="2" fill="#34D399">
-      <animate attributeName="width" from="0" to="332" begin="0.53s" dur="0.9s" fill="freeze"/>
+    <rect x="408" y="78" width="364" height="120" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.4"/>
+    <text x="426" y="108" font-size="12" fill="#A78BFA">02</text>
+    <text x="426" y="132" font-size="15" font-weight="700" fill="#F8FAFC">Multi-Cloud Control</text>
+    <text x="426" y="154" font-size="11" fill="#94A3B8">Federated identity · network</text><text x="426" y="169" font-size="11" fill="#94A3B8">cost-aware scale across providers</text>
+    <rect x="426" y="182" width="0" height="4" rx="2" fill="#34D399">
+      <animate attributeName="width" from="0" to="328" begin="0.53s" dur="0.9s" fill="freeze"/>
     </rect>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.56s" dur="0.50s" fill="freeze"/>
-    <rect x="796" y="78" width="368" height="120" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.4"/>
-    <text x="814" y="108" font-size="12" fill="#A78BFA">03</text>
-    <text x="814" y="132" font-size="15" font-weight="700" fill="#F8FAFC">Container Platforms</text>
-    <text x="814" y="158" font-size="11" fill="#94A3B8">Managed K8s · Swarm · GPU pools · event-driven autoscaling</text>
-    <rect x="814" y="174" width="0" height="4" rx="2" fill="#34D399">
-      <animate attributeName="width" from="0" to="332" begin="0.71s" dur="0.9s" fill="freeze"/>
+    <rect x="788" y="78" width="364" height="120" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.4"/>
+    <text x="806" y="108" font-size="12" fill="#A78BFA">03</text>
+    <text x="806" y="132" font-size="15" font-weight="700" fill="#F8FAFC">Container Platforms</text>
+    <text x="806" y="154" font-size="11" fill="#94A3B8">Managed K8s · Swarm · GPU pools</text><text x="806" y="169" font-size="11" fill="#94A3B8">event-driven autoscaling</text>
+    <rect x="806" y="182" width="0" height="4" rx="2" fill="#34D399">
+      <animate attributeName="width" from="0" to="328" begin="0.71s" dur="0.9s" fill="freeze"/>
     </rect>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.74s" dur="0.50s" fill="freeze"/>
-    <rect x="28" y="214" width="368" height="120" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.4"/>
+    <rect x="28" y="214" width="364" height="120" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.4"/>
     <text x="46" y="244" font-size="12" fill="#A78BFA">04</text>
     <text x="46" y="268" font-size="15" font-weight="700" fill="#F8FAFC">Zero-Trust Delivery</text>
-    <text x="46" y="294" font-size="11" fill="#94A3B8">Secrets · policy gates · signed artifacts · least privilege</text>
-    <rect x="46" y="310" width="0" height="4" rx="2" fill="#34D399">
-      <animate attributeName="width" from="0" to="332" begin="0.89s" dur="0.9s" fill="freeze"/>
+    <text x="46" y="290" font-size="11" fill="#94A3B8">Secrets · policy gates</text><text x="46" y="305" font-size="11" fill="#94A3B8">signed artifacts · least privilege</text>
+    <rect x="46" y="318" width="0" height="4" rx="2" fill="#34D399">
+      <animate attributeName="width" from="0" to="328" begin="0.89s" dur="0.9s" fill="freeze"/>
     </rect>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.92s" dur="0.50s" fill="freeze"/>
-    <rect x="412" y="214" width="368" height="120" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.4"/>
-    <text x="430" y="244" font-size="12" fill="#A78BFA">05</text>
-    <text x="430" y="268" font-size="15" font-weight="700" fill="#F8FAFC">Observability Fabric</text>
-    <text x="430" y="294" font-size="11" fill="#94A3B8">Metrics · logs · traces · mesh telemetry · SLO alerts</text>
-    <rect x="430" y="310" width="0" height="4" rx="2" fill="#34D399">
-      <animate attributeName="width" from="0" to="332" begin="1.07s" dur="0.9s" fill="freeze"/>
+    <rect x="408" y="214" width="364" height="120" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.4"/>
+    <text x="426" y="244" font-size="12" fill="#A78BFA">05</text>
+    <text x="426" y="268" font-size="15" font-weight="700" fill="#F8FAFC">Observability Fabric</text>
+    <text x="426" y="290" font-size="11" fill="#94A3B8">Metrics · logs · traces</text><text x="426" y="305" font-size="11" fill="#94A3B8">mesh telemetry · SLO alerts</text>
+    <rect x="426" y="318" width="0" height="4" rx="2" fill="#34D399">
+      <animate attributeName="width" from="0" to="328" begin="1.07s" dur="0.9s" fill="freeze"/>
     </rect>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.10s" dur="0.50s" fill="freeze"/>
-    <rect x="796" y="214" width="368" height="120" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.4"/>
-    <text x="814" y="244" font-size="12" fill="#A78BFA">06</text>
-    <text x="814" y="268" font-size="15" font-weight="700" fill="#F8FAFC">Web3 / AI Infra</text>
-    <text x="814" y="294" font-size="11" fill="#94A3B8">Hardened node fleets · private RPC · GPU inference platforms</text>
-    <rect x="814" y="310" width="0" height="4" rx="2" fill="#34D399">
-      <animate attributeName="width" from="0" to="332" begin="1.25s" dur="0.9s" fill="freeze"/>
+    <rect x="788" y="214" width="364" height="120" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.4"/>
+    <text x="806" y="244" font-size="12" fill="#A78BFA">06</text>
+    <text x="806" y="268" font-size="15" font-weight="700" fill="#F8FAFC">Web3 / AI Infra</text>
+    <text x="806" y="290" font-size="11" fill="#94A3B8">Hardened node fleets · private RPC</text><text x="806" y="305" font-size="11" fill="#94A3B8">GPU inference platforms</text>
+    <rect x="806" y="318" width="0" height="4" rx="2" fill="#34D399">
+      <animate attributeName="width" from="0" to="328" begin="1.25s" dur="0.9s" fill="freeze"/>
     </rect>
   </g>
 </svg>

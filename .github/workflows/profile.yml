@@ -9,6 +9,7 @@ on:
     paths:
       - "README.md"
       - ".github/workflows/profile.yml"
+      - ".github/scripts/**"
 
 concurrency:
   group: profile-assets
@@ -27,6 +28,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Generate streak (real contribution data)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/streak.py
+
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -35,19 +41,19 @@ jobs:
             dist/snake-light.svg?color_snake=%230891B2&color_dots=#ebedf0,#a5b4fc,#818cf8,#6366f1,#0891B2
             dist/snake-dark.svg?color_snake=%23C084FC&color_dots=#2d3343,#4b5563,#7C3AED,#A78BFA,#22D3EE
 
-      - name: Commit and push snake
+      - name: Commit and push profile assets
         run: |
           mkdir -p snake
           cp dist/snake-light.svg snake/snake-light.svg
           cp dist/snake-dark.svg snake/snake-dark.svg
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add snake/snake-light.svg snake/snake-dark.svg
+          git add snake/snake-light.svg snake/snake-dark.svg streak/streak.svg
           if git diff --staged --quiet; then
-            echo "No snake changes"
+            echo "No asset changes"
             exit 0
           fi
-          git commit -m "Update contribution snake [skip ci]"
+          git commit -m "Update contribution snake + streak [skip ci]"
           for i in 1 2 3 4 5 6; do
             git fetch origin main
             if git pull --rebase origin main && git push origin HEAD:main; then

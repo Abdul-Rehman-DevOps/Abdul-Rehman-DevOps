@@ -3,8 +3,16 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./light.svg" />
-    <img src="./dark.svg" alt="Abdul Rehman — Senior DevOps / DevSecOps / Platform" width="100%" />
+    <img src="./dark.svg" alt="Abdul Rehman — Senior DevOps / DevSecOps / Cloud Engineer" width="100%" />
   </picture>
+</p>
+
+
+<!-- 1b. INTRO (real text: searchable by recruiters & GitHub search) -->
+<p align="center">
+  <b>Senior DevOps / DevSecOps / Cloud Engineer</b> &nbsp;·&nbsp; 4+ years &nbsp;·&nbsp; Islamabad, Pakistan<br/>
+  I build and secure production platforms on <b>AWS, Azure and GCP</b> with <b>Kubernetes (EKS · AKS · GKE)</b>,
+  <b>Terraform</b> and <b>GitOps (ArgoCD · FluxCD)</b>, and put <b>shift-left security</b> in every pipeline.
 </p>
 
 <!-- 2. STREAK (custom terminal panel) -->
@@ -39,6 +47,28 @@
 <div align="center">
   <img width="100%" src="./skills/skills.svg" alt="Multi-cloud skills matrix" />
 </div>
+
+
+<!-- 6b. FEATURED + CERTIFICATIONS -->
+<br/>
+
+<h3 align="center">⚡ Featured</h3>
+
+<div align="center">
+
+| Project | What it does | Stack |
+|:--|:--|:--|
+| [**log-viewer**](https://github.com/Abdul-Rehman-DevOps/log-viewer) | Kubernetes-native log viewer: live multi-pod streams, CrashLoopBackOff / ImagePullBackOff detection, RBAC-scoped access. Logs never leave the cluster. | Go · Kubernetes API · Helm · Docker |
+
+</div>
+
+<h3 align="center">🎓 Certifications</h3>
+
+<p align="center">
+  AWS Technical Essentials — <i>Amazon Web Services</i> &nbsp;·&nbsp;
+  DevOps Certification — <i>Intellipaat</i> &nbsp;·&nbsp;
+  Microsoft Azure Certification — <i>Intellipaat</i>
+</p>
 
 <!-- 7. LINKS -->
 <br/>
