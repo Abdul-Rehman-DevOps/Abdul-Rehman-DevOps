@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="180" viewBox="0 0 1180 180" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" role="img" aria-label="262 total contributions, current streak 2 days, longest streak 9 days">
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="180" viewBox="0 0 1180 180" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" role="img" aria-label="262 total contributions, current streak 0 days, longest streak 9 days">
   <rect width="1180" height="180" rx="14" fill="#070B16" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.5"/>
   <text x="28" y="30" font-size="12" letter-spacing="2" fill="#22D3EE">$ ./streak.sh --live --animate</text>
-  <text x="1152" y="30" text-anchor="end" font-size="11" fill="#64748B">synced 2026-10-18 15:29 UTC
+  <text x="1152" y="30" text-anchor="end" font-size="11" fill="#64748B">synced 2026-10-19 03:35 UTC
     <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="2"/>
   </text>
   <line x1="28" y1="42" x2="1152" y2="42" stroke="#A78BFA" stroke-opacity="0.35">
@@ -21,9 +21,9 @@
     <circle cx="590" cy="91" r="22" fill="none" stroke="#A78BFA" stroke-width="3" opacity="0.7">
       <animate attributeName="stroke-dasharray" values="0 140;138 140" dur="1.2s" begin="0.5s" fill="freeze"/>
     </circle>
-    <text x="590" y="99" text-anchor="middle" font-size="22" font-weight="700" fill="#F8FAFC">2</text>
+    <text x="590" y="99" text-anchor="middle" font-size="22" font-weight="700" fill="#F8FAFC">0</text>
     <text x="590" y="131" text-anchor="middle" font-size="13" fill="#34D399">Current Streak</text>
-    <text x="590" y="148" text-anchor="middle" font-size="11" fill="#94A3B8">days · keep going</text>
+    <text x="590" y="148" text-anchor="middle" font-size="11" fill="#94A3B8">commit today to start</text>
   </g>
 
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.50s" fill="freeze"/>
