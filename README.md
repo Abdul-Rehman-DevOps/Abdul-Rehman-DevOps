@@ -75,7 +75,7 @@
 <div align="center">
   <a href="https://www.abdulrehman.cz"><img src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&amp;logo=vercel&amp;logoColor=22D3EE&amp;labelColor=0A101F" alt="Portfolio" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/abdul-rehman-a197a32b5"><img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&amp;logo=linkedin&amp;logoColor=0A66C2&amp;labelColor=0A101F" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/abdulrehman-devops"><img src="https://img.shields.io/badge/LinkedIn-0A101F?style=for-the-badge&amp;logo=linkedin&amp;logoColor=0A66C2&amp;labelColor=0A101F" alt="LinkedIn" /></a>
   &nbsp;
   <a href="mailto:abdulrehman.devops@gmail.com"><img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&amp;logo=gmail&amp;logoColor=10B981&amp;labelColor=0A101F" alt="Email" /></a>
   &nbsp;
