@@ -11,11 +11,11 @@
 </picture>
 
 <p align="center">
-  <a href="https://www.abdulrehman.cz"><img src="https://img.shields.io/badge/Portfolio-abdulrehman.cz-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=161B22" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/abdulrehman-devops"><img src="https://img.shields.io/badge/LinkedIn-abdulrehman--devops-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161B22" alt="LinkedIn" /></a>
-  <a href="https://www.upwork.com/freelancers/~0193cde46bcaa6c1d7"><img src="https://img.shields.io/badge/Upwork-Hire_me-14A800?style=for-the-badge&logo=upwork&logoColor=white&labelColor=161B22" alt="Upwork" /></a>
-  <a href="mailto:abdulrehman.devops@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161B22" alt="Email" /></a>
-  <a href="./Abdul_Rehman_DevOps_Resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-D97706?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=161B22" alt="Resume" /></a>
+  <a href="https://www.abdulrehman.cz"><img src="https://img.shields.io/badge/Portfolio-0E7490?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/abdulrehman-devops"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.upwork.com/freelancers/~0193cde46bcaa6c1d7"><img src="https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork" /></a>
+  <a href="mailto:abdulrehman.devops@gmail.com"><img src="https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="./Abdul_Rehman_DevOps_Resume.pdf"><img src="https://img.shields.io/badge/Resume-D97706?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" /></a>
 </p>
 
 <picture>
@@ -39,22 +39,28 @@
 </picture>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./cards/clouds-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./cards/clouds-light.svg" />
+  <img src="./cards/clouds-dark.svg" width="100%" alt="Clouds: AWS (EC2, EKS, ECS, ECR, Lambda, S3, RDS, VPC, Route 53, CloudFront, IAM, KMS, CloudWatch), Azure (AKS, VNet, ACR, Key Vault, Entra ID), GCP (GKE, Compute Engine, Cloud Run, Artifact Registry); also DigitalOcean, Hetzner and on-premises." />
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./cards/toolbox-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./cards/toolbox-light.svg" />
-  <img src="./cards/toolbox-dark.svg" width="100%" alt="Toolbox: AWS, Azure, GCP, EKS, AKS, GKE, Helm, Karpenter, KEDA, Istio, ArgoCD, FluxCD, GitHub Actions, GitLab CI, Jenkins, Terraform, Ansible, Semgrep, SonarQube, OWASP ZAP, Trivy, Gitleaks, Checkov, Prometheus, Grafana, PostgreSQL, Redis, Kafka, Go, Python, Bash." />
+  <img src="./cards/toolbox-dark.svg" width="100%" alt="Toolbox: EKS, AKS, GKE, Helm, Karpenter, KEDA, Istio, ArgoCD, FluxCD, GitHub Actions, GitLab CI, Jenkins, Terraform, Ansible, Semgrep, SonarQube, OWASP ZAP, Trivy, Gitleaks, Checkov, Prometheus, Grafana, PostgreSQL, Redis, Kafka, Go, Python, Bash." />
 </picture>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws%2Cazure%2Cgcp%2Ckubernetes%2Cdocker%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cjenkins%2Cprometheus%2Cgrafana&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws%2Cazure%2Cgcp%2Ckubernetes%2Cdocker%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cjenkins%2Cprometheus%2Cgrafana&theme=light" />
-    <img src="https://skillicons.dev/icons?i=aws%2Cazure%2Cgcp%2Ckubernetes%2Cdocker%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cjenkins%2Cprometheus%2Cgrafana&theme=dark" alt="AWS, Azure, GCP, Kubernetes, Docker, Terraform, Ansible, GitHub Actions, GitLab, Jenkins, Prometheus, Grafana" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws%2Cazure%2Cgcp%2Ckubernetes%2Cdocker%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cjenkins%2Cprometheus%2Cgrafana&theme=dark&perline=14" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws%2Cazure%2Cgcp%2Ckubernetes%2Cdocker%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cjenkins%2Cprometheus%2Cgrafana&theme=light&perline=14" />
+    <img src="https://skillicons.dev/icons?i=aws%2Cazure%2Cgcp%2Ckubernetes%2Cdocker%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cjenkins%2Cprometheus%2Cgrafana&theme=dark&perline=14" alt="AWS, Azure, GCP, Kubernetes, Docker, Terraform, Ansible, GitHub Actions, GitLab, Jenkins, Prometheus, Grafana" />
   </picture>
   <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux%2Cnginx%2Ccloudflare%2Cgo%2Cpy%2Cbash%2Cpostgres%2Credis%2Ckafka%2Celasticsearch%2Cgit&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=linux%2Cnginx%2Ccloudflare%2Cgo%2Cpy%2Cbash%2Cpostgres%2Credis%2Ckafka%2Celasticsearch%2Cgit&theme=light" />
-    <img src="https://skillicons.dev/icons?i=linux%2Cnginx%2Ccloudflare%2Cgo%2Cpy%2Cbash%2Cpostgres%2Credis%2Ckafka%2Celasticsearch%2Cgit&theme=dark" alt="Linux, NGINX, Cloudflare, Go, Python, Bash, PostgreSQL, Redis, Kafka, Elasticsearch, Git" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linux%2Credhat%2Cubuntu%2Cnginx%2Ccloudflare%2Cgo%2Cpy%2Cbash%2Cpostgres%2Credis%2Ckafka%2Celasticsearch%2Cgit%2Cgithub&theme=dark&perline=14" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=linux%2Credhat%2Cubuntu%2Cnginx%2Ccloudflare%2Cgo%2Cpy%2Cbash%2Cpostgres%2Credis%2Ckafka%2Celasticsearch%2Cgit%2Cgithub&theme=light&perline=14" />
+    <img src="https://skillicons.dev/icons?i=linux%2Credhat%2Cubuntu%2Cnginx%2Ccloudflare%2Cgo%2Cpy%2Cbash%2Cpostgres%2Credis%2Ckafka%2Celasticsearch%2Cgit%2Cgithub&theme=dark&perline=14" alt="Linux, Red Hat, Ubuntu, NGINX, Cloudflare, Go, Python, Bash, PostgreSQL, Redis, Kafka, Elasticsearch, Git, GitHub" />
   </picture>
 </p>
 

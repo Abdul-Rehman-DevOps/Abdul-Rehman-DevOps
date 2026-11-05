@@ -7,10 +7,11 @@ never renders as an empty box.
 
 SANS = "'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif"
 MONO = "ui-monospace,SFMono-Regular,Consolas,Menlo,monospace"
-WIDTH = 1200
+WIDTH = 900  # GitHub README column is ~830-900px, so cards render ~1:1
 
 THEMES = {
     "dark": {
+        "mode": "dark",
         "bg": "#0D1117",
         "panel": "#161B22",
         "border": "#30363D",
@@ -23,6 +24,7 @@ THEMES = {
         "a4": "#F0B429",   # amber
     },
     "light": {
+        "mode": "light",
         "bg": "#FFFFFF",
         "panel": "#F6F8FA",
         "border": "#D0D7DE",
@@ -54,6 +56,20 @@ def check_fits(s, size, max_w, mono=False, bold=False, where=""):
         raise SystemExit(f"text too wide ({w:.0f} > {max_w}) in {where}: {s!r}")
 
 
+def wrap(s, size, max_w, mono=False, bold=False):
+    """Greedy word-wrap using the same width estimate as check_fits."""
+    lines, cur = [], ""
+    for word in s.split(" "):
+        trial = (cur + " " + word).strip()
+        if cur and text_width(trial, size, mono, bold) > max_w:
+            lines.append(cur); cur = word
+        else:
+            cur = trial
+    if cur:
+        lines.append(cur)
+    return lines
+
+
 def frame(t, height, body, label):
     """Outer card: rounded panel, hairline border, gradient accent bar on top."""
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{height}" viewBox="0 0 {WIDTH} {height}" role="img" aria-label="{esc(label)}">
@@ -74,8 +90,8 @@ def frame(t, height, body, label):
 
 
 def header(t, x, y, cmd, right=""):
-    out = f'''    <circle cx="{x}" cy="{y - 4}" r="5" fill="#FF5F57"/><circle cx="{x + 16}" cy="{y - 4}" r="5" fill="#FEBC2E"/><circle cx="{x + 32}" cy="{y - 4}" r="5" fill="#28C840"/>
-    <text x="{x + 52}" y="{y}" font-family="{MONO}" font-size="13" fill="{t['muted']}"><tspan fill="{t['a3']}">abdul@platform</tspan>:<tspan fill="{t['a1']}">~</tspan>$ {esc(cmd)}</text>'''
+    out = f'''    <circle cx="{x}" cy="{y - 5}" r="6" fill="#FF5F57"/><circle cx="{x + 18}" cy="{y - 5}" r="6" fill="#FEBC2E"/><circle cx="{x + 36}" cy="{y - 5}" r="6" fill="#28C840"/>
+    <text x="{x + 56}" y="{y}" font-family="{MONO}" font-size="14" fill="{t['muted']}"><tspan fill="{t['a3']}">abdul@platform</tspan>:<tspan fill="{t['a1']}">~</tspan>$ {esc(cmd)}</text>'''
     if right:
-        out += f'\n    <text x="{WIDTH - 32}" y="{y}" text-anchor="end" font-family="{MONO}" font-size="12" fill="{t["muted"]}">{esc(right)}</text>'
+        out += f'\n    <text x="{WIDTH - 28}" y="{y}" text-anchor="end" font-family="{MONO}" font-size="13" fill="{t["muted"]}">{esc(right)}</text>'
     return out

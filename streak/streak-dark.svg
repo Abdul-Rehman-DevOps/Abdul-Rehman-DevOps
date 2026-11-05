@@ -1,31 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="196" viewBox="0 0 1200 196" role="img" aria-label="283 total contributions, current streak 2 days, longest streak 9 days">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="196" viewBox="0 0 900 196" role="img" aria-label="283 total contributions, current streak 2 days, longest streak 10 days">
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/>
     </linearGradient>
-    <clipPath id="card"><rect width="1200" height="196" rx="16"/></clipPath>
+    <clipPath id="card"><rect width="900" height="196" rx="16"/></clipPath>
   </defs>
   <g clip-path="url(#card)">
-    <rect width="1200" height="196" fill="#0D1117"/>
-    <rect width="1200" height="3" fill="url(#accent)"/>
-    <circle cx="48" cy="34" r="5" fill="#FF5F57"/><circle cx="64" cy="34" r="5" fill="#FEBC2E"/><circle cx="80" cy="34" r="5" fill="#28C840"/>
-    <text x="100" y="38" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#8B949E"><tspan fill="#3FB950">abdul@platform</tspan>:<tspan fill="#22D3EE">~</tspan>$ ./streak.sh --live</text>
-    <text x="1168" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#8B949E">synced 2026-11-05 06:20 UTC</text>
-    <rect x="32" y="60" width="369" height="112" rx="12" fill="#161B22" stroke="#30363D"/>
-    <rect x="32" y="60" width="369" height="3" rx="1.5" fill="#22D3EE"/>
-    <text x="217" y="112" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#22D3EE">283</text>
-    <text x="217" y="140" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#E6EDF3">Total contributions</text>
-    <text x="217" y="159" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#8B949E">Jul 2025 — Present</text>
-    <rect x="415" y="60" width="369" height="112" rx="12" fill="#161B22" stroke="#30363D"/>
-    <rect x="415" y="60" width="369" height="3" rx="1.5" fill="#3FB950"/>
-    <text x="600" y="112" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#3FB950">2</text>
-    <text x="600" y="140" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#E6EDF3">Current streak</text>
-    <text x="600" y="159" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#8B949E">days · keep going</text>
-    <rect x="799" y="60" width="369" height="112" rx="12" fill="#161B22" stroke="#30363D"/>
-    <rect x="799" y="60" width="369" height="3" rx="1.5" fill="#A78BFA"/>
-    <text x="983" y="112" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#A78BFA">9</text>
-    <text x="983" y="140" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#E6EDF3">Longest streak</text>
-    <text x="983" y="159" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#8B949E">Sep 28 — Oct 6</text>
+    <rect width="900" height="196" fill="#0D1117"/>
+    <rect width="900" height="3" fill="url(#accent)"/>
+    <circle cx="48" cy="33" r="6" fill="#FF5F57"/><circle cx="66" cy="33" r="6" fill="#FEBC2E"/><circle cx="84" cy="33" r="6" fill="#28C840"/>
+    <text x="104" y="38" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="14" fill="#8B949E"><tspan fill="#3FB950">abdul@platform</tspan>:<tspan fill="#22D3EE">~</tspan>$ ./streak.sh --live</text>
+    <text x="872" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#8B949E">synced 2026-11-05 06:30 UTC</text>
+    <rect x="32" y="60" width="269" height="112" rx="12" fill="#161B22" stroke="#30363D"/>
+    <rect x="32" y="60" width="269" height="3" rx="1.5" fill="#22D3EE"/>
+    <text x="167" y="112" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#22D3EE">283</text>
+    <text x="167" y="140" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#E6EDF3">Total contributions</text>
+    <text x="167" y="159" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#8B949E">Jul 2025 — Present</text>
+    <rect x="315" y="60" width="269" height="112" rx="12" fill="#161B22" stroke="#30363D"/>
+    <rect x="315" y="60" width="269" height="3" rx="1.5" fill="#3FB950"/>
+    <text x="450" y="112" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#3FB950">2</text>
+    <text x="450" y="140" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#E6EDF3">Current streak</text>
+    <text x="450" y="159" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#8B949E">days · keep going</text>
+    <rect x="599" y="60" width="269" height="112" rx="12" fill="#161B22" stroke="#30363D"/>
+    <rect x="599" y="60" width="269" height="3" rx="1.5" fill="#A78BFA"/>
+    <text x="733" y="112" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#A78BFA">10</text>
+    <text x="733" y="140" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#E6EDF3">Longest streak</text>
+    <text x="733" y="159" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#8B949E">Sep 28 — Oct 7</text>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="195" rx="16" fill="none" stroke="#30363D"/>
+  <rect x="0.5" y="0.5" width="899" height="195" rx="16" fill="none" stroke="#30363D"/>
 </svg>
