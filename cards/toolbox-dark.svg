@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="458" viewBox="0 0 1200 458" role="img" aria-label="Toolbox: cloud: AWS, Azure, GCP, DigitalOcean, Hetzner, On-Prem; kubernetes: EKS, AKS, GKE, Helm, Karpenter, KEDA, Istio, Kiali, Ingress-NGINX, Traefik; gitops-ci: ArgoCD, FluxCD, GitHub Actions, GitLab CI, Jenkins, Azure DevOps; iac: Terraform, Ansible, CloudFormation; devsecops: Semgrep, SonarQube, OWASP ZAP, Trivy, Gitleaks, Checkov, Dependency-Check, Burp Suite; security: IAM / RBAC, mTLS, Network Policies, KMS, Cloudflare WAF, SELinux; observability: Prometheus, Grafana, ELK, CloudWatch, Uptime Kuma, k6; data: PostgreSQL, Redis, Elasticsearch, Kafka; languages: Go, Python, Bash, HCL, SQL">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="458" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="458" fill="#0D1117"/>
+    <rect width="1200" height="3" fill="url(#accent)"/>
+    <circle cx="48" cy="34" r="5" fill="#FF5F57"/><circle cx="64" cy="34" r="5" fill="#FEBC2E"/><circle cx="80" cy="34" r="5" fill="#28C840"/>
+    <text x="100" y="38" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#8B949E"><tspan fill="#3FB950">abdul@platform</tspan>:<tspan fill="#22D3EE">~</tspan>$ ls ~/toolbox</text>
+    <text x="1168" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#8B949E">54 tools · 9 domains</text>
+    <text x="48" y="86" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#22D3EE">cloud/</text>
+    <rect x="230" y="66" width="47" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="254" y="84.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">AWS</text>
+    <rect x="285.25" y="66" width="63" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="317" y="84.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Azure</text>
+    <rect x="356.0" y="66" width="47" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="380" y="84.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">GCP</text>
+    <rect x="411.25" y="66" width="117" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="470" y="84.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">DigitalOcean</text>
+    <rect x="536.25" y="66" width="78" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="575" y="84.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Hetzner</text>
+    <rect x="622.5" y="66" width="78" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="662" y="84.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">On-Prem</text>
+    <text x="48" y="128" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#A78BFA">kubernetes/</text>
+    <rect x="230" y="108" width="47" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="254" y="126.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">EKS</text>
+    <rect x="285.25" y="108" width="47" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="309" y="126.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">AKS</text>
+    <rect x="340.5" y="108" width="47" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="364" y="126.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">GKE</text>
+    <rect x="395.75" y="108" width="55" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="423" y="126.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Helm</text>
+    <rect x="458.75" y="108" width="94" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="506" y="126.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Karpenter</text>
+    <rect x="560.5" y="108" width="55" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="588" y="126.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">KEDA</text>
+    <rect x="623.5" y="108" width="63" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="655" y="126.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Istio</text>
+    <rect x="694.25" y="108" width="63" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="726" y="126.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Kiali</text>
+    <rect x="765.0" y="108" width="125" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="827" y="126.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Ingress-NGINX</text>
+    <rect x="897.75" y="108" width="78" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="937" y="126.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Traefik</text>
+    <text x="48" y="170" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#3FB950">gitops-ci/</text>
+    <rect x="230" y="150" width="70" height="28" rx="14.0" fill="#161B22" stroke="#3FB950" stroke-opacity="0.55"/>
+    <text x="265" y="168.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">ArgoCD</text>
+    <rect x="308.5" y="150" width="70" height="28" rx="14.0" fill="#161B22" stroke="#3FB950" stroke-opacity="0.55"/>
+    <text x="344" y="168.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">FluxCD</text>
+    <rect x="387.0" y="150" width="132" height="28" rx="14.0" fill="#161B22" stroke="#3FB950" stroke-opacity="0.55"/>
+    <text x="453" y="168.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">GitHub Actions</text>
+    <rect x="527.5" y="150" width="94" height="28" rx="14.0" fill="#161B22" stroke="#3FB950" stroke-opacity="0.55"/>
+    <text x="574" y="168.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">GitLab CI</text>
+    <rect x="629.25" y="150" width="78" height="28" rx="14.0" fill="#161B22" stroke="#3FB950" stroke-opacity="0.55"/>
+    <text x="668" y="168.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Jenkins</text>
+    <rect x="715.5" y="150" width="117" height="28" rx="14.0" fill="#161B22" stroke="#3FB950" stroke-opacity="0.55"/>
+    <text x="774" y="168.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Azure DevOps</text>
+    <text x="48" y="212" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#F0B429">iac/</text>
+    <rect x="230" y="192" width="94" height="28" rx="14.0" fill="#161B22" stroke="#F0B429" stroke-opacity="0.55"/>
+    <text x="277" y="210.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Terraform</text>
+    <rect x="331.75" y="192" width="78" height="28" rx="14.0" fill="#161B22" stroke="#F0B429" stroke-opacity="0.55"/>
+    <text x="371" y="210.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Ansible</text>
+    <rect x="418.0" y="192" width="132" height="28" rx="14.0" fill="#161B22" stroke="#F0B429" stroke-opacity="0.55"/>
+    <text x="484" y="210.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">CloudFormation</text>
+    <text x="48" y="254" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#22D3EE">devsecops/</text>
+    <rect x="230" y="234" width="78" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="269" y="252.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Semgrep</text>
+    <rect x="316.25" y="234" width="94" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="363" y="252.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">SonarQube</text>
+    <rect x="418.0" y="234" width="94" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="465" y="252.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">OWASP ZAP</text>
+    <rect x="519.75" y="234" width="63" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="551" y="252.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Trivy</text>
+    <rect x="590.5" y="234" width="86" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="634" y="252.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Gitleaks</text>
+    <rect x="684.5" y="234" width="78" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="724" y="252.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Checkov</text>
+    <rect x="770.75" y="234" width="148" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="845" y="252.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Dependency-Check</text>
+    <rect x="926.75" y="234" width="102" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="978" y="252.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Burp Suite</text>
+    <text x="48" y="296" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#A78BFA">security/</text>
+    <rect x="230" y="276" width="102" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="281" y="294.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">IAM / RBAC</text>
+    <rect x="339.5" y="276" width="55" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="367" y="294.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">mTLS</text>
+    <rect x="402.5" y="276" width="148" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="476" y="294.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Network Policies</text>
+    <rect x="558.5" y="276" width="47" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="582" y="294.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">KMS</text>
+    <rect x="613.75" y="276" width="132" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="680" y="294.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Cloudflare WAF</text>
+    <rect x="754.25" y="276" width="78" height="28" rx="14.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="793" y="294.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">SELinux</text>
+    <text x="48" y="338" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#3FB950">observability/</text>
+    <rect x="230" y="318" width="102" height="28" rx="14.0" fill="#161B22" stroke="#3FB950" stroke-opacity="0.55"/>
+    <text x="281" y="336.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Prometheus</text>
+    <rect x="339.5" y="318" width="78" height="28" rx="14.0" fill="#161B22" stroke="#3FB950" stroke-opacity="0.55"/>
+    <text x="379" y="336.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Grafana</text>
+    <rect x="425.75" y="318" width="47" height="28" rx="14.0" fill="#161B22" stroke="#3FB950" stroke-opacity="0.55"/>
+    <text x="449" y="336.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">ELK</text>
+    <rect x="481.0" y="318" width="102" height="28" rx="14.0" fill="#161B22" stroke="#3FB950" stroke-opacity="0.55"/>
+    <text x="532" y="336.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">CloudWatch</text>
+    <rect x="590.5" y="318" width="109" height="28" rx="14.0" fill="#161B22" stroke="#3FB950" stroke-opacity="0.55"/>
+    <text x="645" y="336.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Uptime Kuma</text>
+    <rect x="707.75" y="318" width="40" height="28" rx="14.0" fill="#161B22" stroke="#3FB950" stroke-opacity="0.55"/>
+    <text x="728" y="336.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">k6</text>
+    <text x="48" y="380" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#F0B429">data/</text>
+    <rect x="230" y="360" width="102" height="28" rx="14.0" fill="#161B22" stroke="#F0B429" stroke-opacity="0.55"/>
+    <text x="281" y="378.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">PostgreSQL</text>
+    <rect x="339.5" y="360" width="63" height="28" rx="14.0" fill="#161B22" stroke="#F0B429" stroke-opacity="0.55"/>
+    <text x="371" y="378.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Redis</text>
+    <rect x="410.25" y="360" width="125" height="28" rx="14.0" fill="#161B22" stroke="#F0B429" stroke-opacity="0.55"/>
+    <text x="473" y="378.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Elasticsearch</text>
+    <rect x="543.0" y="360" width="63" height="28" rx="14.0" fill="#161B22" stroke="#F0B429" stroke-opacity="0.55"/>
+    <text x="574" y="378.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Kafka</text>
+    <text x="48" y="422" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#22D3EE">languages/</text>
+    <rect x="230" y="402" width="40" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="250" y="420.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Go</text>
+    <rect x="277.5" y="402" width="70" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="313" y="420.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Python</text>
+    <rect x="356.0" y="402" width="55" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="384" y="420.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">Bash</text>
+    <rect x="419.0" y="402" width="47" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="443" y="420.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">HCL</text>
+    <rect x="474.25" y="402" width="47" height="28" rx="14.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="498" y="420.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12.5" fill="#E6EDF3">SQL</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="457" rx="16" fill="none" stroke="#30363D"/>
+</svg>

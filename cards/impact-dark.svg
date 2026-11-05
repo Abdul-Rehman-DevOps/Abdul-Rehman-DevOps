@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="196" viewBox="0 0 1200 196" role="img" aria-label="Impact: 4+ years in production DevOps &amp; DevSecOps; 3 clouds in production AWS · Azure · GCP; 30+ microservices run on Kubernetes; ~50% compute cost cut Karpenter + Spot; &lt;4 min deploy time down from 15 min">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="196" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="196" fill="#0D1117"/>
+    <rect width="1200" height="3" fill="url(#accent)"/>
+    <circle cx="48" cy="34" r="5" fill="#FF5F57"/><circle cx="64" cy="34" r="5" fill="#FEBC2E"/><circle cx="80" cy="34" r="5" fill="#28C840"/>
+    <text x="100" y="38" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#8B949E"><tspan fill="#3FB950">abdul@platform</tspan>:<tspan fill="#22D3EE">~</tspan>$ cat impact.txt</text>
+    <rect x="32" y="60" width="216" height="112" rx="12" fill="#161B22" stroke="#30363D"/>
+    <rect x="32" y="60" width="4" height="112" rx="2" fill="#22D3EE"/>
+    <text x="54" y="108" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#22D3EE">4+</text>
+    <text x="54" y="136" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#E6EDF3">years in production</text>
+    <text x="54" y="156" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" fill="#8B949E">DevOps &amp; DevSecOps</text>
+    <rect x="262" y="60" width="216" height="112" rx="12" fill="#161B22" stroke="#30363D"/>
+    <rect x="262" y="60" width="4" height="112" rx="2" fill="#A78BFA"/>
+    <text x="284" y="108" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#A78BFA">3</text>
+    <text x="284" y="136" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#E6EDF3">clouds in production</text>
+    <text x="284" y="156" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" fill="#8B949E">AWS · Azure · GCP</text>
+    <rect x="492" y="60" width="216" height="112" rx="12" fill="#161B22" stroke="#30363D"/>
+    <rect x="492" y="60" width="4" height="112" rx="2" fill="#3FB950"/>
+    <text x="514" y="108" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#3FB950">30+</text>
+    <text x="514" y="136" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#E6EDF3">microservices run</text>
+    <text x="514" y="156" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" fill="#8B949E">on Kubernetes</text>
+    <rect x="722" y="60" width="216" height="112" rx="12" fill="#161B22" stroke="#30363D"/>
+    <rect x="722" y="60" width="4" height="112" rx="2" fill="#F0B429"/>
+    <text x="744" y="108" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#F0B429">~50%</text>
+    <text x="744" y="136" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#E6EDF3">compute cost cut</text>
+    <text x="744" y="156" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" fill="#8B949E">Karpenter + Spot</text>
+    <rect x="952" y="60" width="216" height="112" rx="12" fill="#161B22" stroke="#30363D"/>
+    <rect x="952" y="60" width="4" height="112" rx="2" fill="#22D3EE"/>
+    <text x="974" y="108" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#22D3EE">&lt;4 min</text>
+    <text x="974" y="136" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#E6EDF3">deploy time</text>
+    <text x="974" y="156" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" fill="#8B949E">down from 15 min</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="195" rx="16" fill="none" stroke="#30363D"/>
+</svg>

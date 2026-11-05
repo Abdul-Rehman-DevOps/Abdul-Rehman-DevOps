@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate streak/streak.svg from real GitHub contribution data.
+"""Generate streak/streak-{dark,light}.svg from real GitHub contribution data.
 
 Runs in the Profile Assets workflow (GITHUB_TOKEN). Counts every day since the
 account was created, so the numbers are always live and verifiable.
@@ -7,8 +7,11 @@ Local test without network:  python3 streak.py --fake
 """
 import datetime as dt, json, os, sys, urllib.request
 
+sys.path.insert(0, os.path.dirname(__file__))
+from theme import THEMES, SANS, MONO, WIDTH, frame, header  # noqa: E402
+
 USER = os.environ.get("GH_USER", "Abdul-Rehman-DevOps")
-OUT = os.environ.get("OUT", "streak/streak.svg")
+OUT_DIR = os.environ.get("OUT_DIR", "streak")
 API = "https://api.github.com/graphql"
 
 
@@ -72,46 +75,27 @@ def fmt_day(d):
     return d.strftime("%b %d").replace(" 0", " ")
 
 
-def render(total, first, cur, best, bs, be):
+def render(t, total, first, cur, best, bs, be):
     best_label = f"{fmt_day(bs)} — {fmt_day(be)}" if best else "start a streak"
     cur_label = "days · keep going" if cur else "commit today to start"
     synced = dt.datetime.now(dt.timezone.utc).strftime("synced %Y-%m-%d %H:%M UTC")
-    return f'''<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="180" viewBox="0 0 1180 180" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" role="img" aria-label="{total} total contributions, current streak {cur} days, longest streak {best} days">
-  <rect width="1180" height="180" rx="14" fill="#070B16" stroke="#22D3EE" stroke-opacity="0.4" stroke-width="1.5"/>
-  <text x="28" y="30" font-size="12" letter-spacing="2" fill="#22D3EE">$ ./streak.sh --live --animate</text>
-  <text x="1152" y="30" text-anchor="end" font-size="11" fill="#64748B">{synced}
-    <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="2"/>
-  </text>
-  <line x1="28" y1="42" x2="1152" y2="42" stroke="#A78BFA" stroke-opacity="0.35">
-    <animate attributeName="x2" from="28" to="1152" dur="0.9s" fill="freeze"/>
-  </line>
-
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.20s" dur="0.50s" fill="freeze"/>
-    <rect x="40" y="58" width="340" height="100" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.3"/>
-    <text x="210" y="100" text-anchor="middle" font-size="42" font-weight="700" fill="#F8FAFC">{total:,}</text>
-    <text x="210" y="128" text-anchor="middle" font-size="13" fill="#22D3EE">Total Contributions</text>
-    <text x="210" y="148" text-anchor="middle" font-size="11" fill="#94A3B8">{fmt(first)} — Present</text>
-  </g>
-
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.40s" dur="0.50s" fill="freeze"/>
-    <rect x="420" y="58" width="340" height="100" rx="12" fill="#0A101F" stroke="#A78BFA" stroke-opacity="0.35"/>
-    <circle cx="590" cy="91" r="22" fill="none" stroke="#A78BFA" stroke-width="3" opacity="0.7">
-      <animate attributeName="stroke-dasharray" values="0 140;138 140" dur="1.2s" begin="0.5s" fill="freeze"/>
-    </circle>
-    <text x="590" y="99" text-anchor="middle" font-size="22" font-weight="700" fill="#F8FAFC">{cur}</text>
-    <text x="590" y="131" text-anchor="middle" font-size="13" fill="#34D399">Current Streak</text>
-    <text x="590" y="148" text-anchor="middle" font-size="11" fill="#94A3B8">{cur_label}</text>
-  </g>
-
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.50s" fill="freeze"/>
-    <rect x="800" y="58" width="340" height="100" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.3"/>
-    <text x="970" y="100" text-anchor="middle" font-size="42" font-weight="700" fill="#F8FAFC">{best}</text>
-    <text x="970" y="128" text-anchor="middle" font-size="13" fill="#22D3EE">Longest Streak</text>
-    <text x="970" y="148" text-anchor="middle" font-size="11" fill="#94A3B8">{best_label}</text>
-  </g>
-</svg>
-'''
+    tiles = [
+        (f"{total:,}", "Total contributions", f"{fmt(first)} — Present", t["a1"]),
+        (f"{cur}", "Current streak", cur_label, t["a3"]),
+        (f"{best}", "Longest streak", best_label, t["a2"]),
+    ]
+    gap, x0 = 14, 32
+    w = (WIDTH - 2 * x0 - gap * 2) / 3
+    body = [header(t, 48, 38, "./streak.sh --live", synced)]
+    for i, (num, label, sub, col) in enumerate(tiles):
+        x = x0 + i * (w + gap); y = 60
+        cx = x + w / 2
+        body.append(f'    <rect x="{x:.0f}" y="{y}" width="{w:.0f}" height="112" rx="12" fill="{t["panel"]}" stroke="{t["border"]}"/>')
+        body.append(f'    <rect x="{x:.0f}" y="{y}" width="{w:.0f}" height="3" rx="1.5" fill="{col}"/>')
+        body.append(f'    <text x="{cx:.0f}" y="{y + 52}" text-anchor="middle" font-family="{SANS}" font-size="38" font-weight="700" fill="{col}">{num}</text>')
+        body.append(f'    <text x="{cx:.0f}" y="{y + 80}" text-anchor="middle" font-family="{SANS}" font-size="14" fill="{t["text"]}">{label}</text>')
+        body.append(f'    <text x="{cx:.0f}" y="{y + 99}" text-anchor="middle" font-family="{MONO}" font-size="12" fill="{t["muted"]}">{sub}</text>')
+    return frame(t, 196, "\n".join(body), f"{total} total contributions, current streak {cur} days, longest streak {best} days")
 
 
 if __name__ == "__main__":
@@ -121,7 +105,10 @@ if __name__ == "__main__":
         days = {(base + dt.timedelta(i)).isoformat(): (random.random() < 0.7) * random.randint(1, 9) for i in range(470)}
     else:
         days = fetch_days()
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    os.makedirs(OUT_DIR, exist_ok=True)
     s = stats(days)
-    open(OUT, "w").write(render(*s))
-    print(f"total={s[0]} current={s[2]} longest={s[3]} -> {OUT}")
+    for mode, t in THEMES.items():
+        out = os.path.join(OUT_DIR, f"streak-{mode}.svg")
+        with open(out, "w", encoding="utf-8", newline="\n") as f:
+            f.write(render(t, *s))
+        print(f"total={s[0]} current={s[2]} longest={s[3]} -> {out}")

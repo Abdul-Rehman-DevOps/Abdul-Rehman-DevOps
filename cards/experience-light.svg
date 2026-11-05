@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-label="Experience: Senior DevOps / DevSecOps Engineer at Funavry Technologies (01/2026 — Present); DevOps Engineer at IKONIC (03/2025 — 01/2026); DevOps / DevSecOps Engineer at Forbmax (08/2023 — 03/2025); Linux System Administrator at Onyx Tech (10/2022 — 08/2023)">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0E7490"/><stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="540" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="540" fill="#FFFFFF"/>
+    <rect width="1200" height="3" fill="url(#accent)"/>
+    <circle cx="48" cy="34" r="5" fill="#FF5F57"/><circle cx="64" cy="34" r="5" fill="#FEBC2E"/><circle cx="80" cy="34" r="5" fill="#28C840"/>
+    <text x="100" y="38" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#59636E"><tspan fill="#1A7F37">abdul@platform</tspan>:<tspan fill="#0E7490">~</tspan>$ git log --career</text>
+    <text x="1168" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#59636E">4 roles · 4+ years</text>
+    <line x1="60" y1="80" x2="60" y2="428" stroke="#D0D7DE" stroke-width="2"/>
+    <circle cx="60" cy="80" r="8" fill="#FFFFFF" stroke="#0E7490" stroke-width="3"/>
+    <circle cx="60" cy="80" r="8" fill="none" stroke="#0E7490" stroke-width="2"><animate attributeName="r" values="8;15" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="92" y="86" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#1F2328">Funavry Technologies<tspan dx="14" font-size="15" font-weight="600" fill="#0E7490">Senior DevOps / DevSecOps Engineer</tspan></text>
+    <text x="1160" y="86" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#1F2328">01/2026 — Present</text>
+    <text x="1160" y="106" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#59636E">Islamabad</text>
+    <text x="92" y="120" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#59636E"><tspan fill="#0E7490">▸</tspan> 3–5 production clusters on EKS, AKS &amp; GKE · Terraform + GitOps (ArgoCD / FluxCD) across all three clouds</text>
+    <text x="92" y="144" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#59636E"><tspan fill="#0E7490">▸</tspan> KEDA + Karpenter on Spot cut compute cost ~50% · DevSecOps gates · multi-node blockchain RPC · incident RCA</text>
+    <circle cx="60" cy="196" r="8" fill="#FFFFFF" stroke="#6D28D9" stroke-width="3"/>
+    <text x="92" y="202" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#1F2328">IKONIC<tspan dx="14" font-size="15" font-weight="600" fill="#6D28D9">DevOps Engineer</tspan></text>
+    <text x="1160" y="202" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#1F2328">03/2025 — 01/2026</text>
+    <text x="1160" y="222" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#59636E">Islamabad</text>
+    <text x="92" y="236" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#59636E"><tspan fill="#6D28D9">▸</tspan> AWS EKS + Google GKE + DigitalOcean workloads · GPU-enabled Python/React AI apps in production</text>
+    <text x="92" y="260" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#59636E"><tspan fill="#6D28D9">▸</tspan> GitHub Actions dev → staging → prod · Docker multi-stage builds to ECR / Artifact Registry with scanning</text>
+    <circle cx="60" cy="312" r="8" fill="#FFFFFF" stroke="#0E7490" stroke-width="3"/>
+    <text x="92" y="318" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#1F2328">Forbmax<tspan dx="14" font-size="15" font-weight="600" fill="#0E7490">DevOps / DevSecOps Engineer</tspan></text>
+    <text x="1160" y="318" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#1F2328">08/2023 — 03/2025</text>
+    <text x="1160" y="338" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#59636E">Islamabad</text>
+    <text x="92" y="352" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#59636E"><tspan fill="#0E7490">▸</tspan> 3–4 clusters across cloud + an on-prem data center running a 30+ microservice media-streaming platform</text>
+    <text x="92" y="376" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#59636E"><tspan fill="#0E7490">▸</tspan> ArgoCD GitOps · Jenkins gated by SonarQube, Dependency-Check &amp; Trivy · Helm · Prometheus / Grafana</text>
+    <circle cx="60" cy="428" r="8" fill="#FFFFFF" stroke="#6D28D9" stroke-width="3"/>
+    <text x="92" y="434" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#1F2328">Onyx Tech<tspan dx="14" font-size="15" font-weight="600" fill="#6D28D9">Linux System Administrator</tspan></text>
+    <text x="1160" y="434" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#1F2328">10/2022 — 08/2023</text>
+    <text x="1160" y="454" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="12" fill="#59636E">Lahore</text>
+    <text x="92" y="468" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#59636E"><tspan fill="#6D28D9">▸</tspan> Enterprise RHEL 7/8: patching, LVM / RAID, Apache / DNS / NFS, monitoring, backup and recovery</text>
+    <text x="92" y="492" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#59636E"><tspan fill="#6D28D9">▸</tspan> SELinux + iptables hardening</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="539" rx="16" fill="none" stroke="#D0D7DE"/>
+</svg>

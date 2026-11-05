@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Abdul Rehman — Senior DevOps / DevSecOps / Cloud Engineer. I build, secure and run production Kubernetes platforms on AWS, Azure and GCP.">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="330" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="330" fill="#0D1117"/>
+    <rect width="1200" height="3" fill="url(#accent)"/>
+    <circle cx="48" cy="34" r="5" fill="#FF5F57"/><circle cx="64" cy="34" r="5" fill="#FEBC2E"/><circle cx="80" cy="34" r="5" fill="#28C840"/>
+    <text x="100" y="38" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#8B949E"><tspan fill="#3FB950">abdul@platform</tspan>:<tspan fill="#22D3EE">~</tspan>$ whoami</text>
+    <text x="48" y="122" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="56" font-weight="700" fill="#E6EDF3">Abdul Rehman</text>
+    <text x="48" y="164" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="24" font-weight="600" fill="url(#accent)">Senior DevOps / DevSecOps / Cloud Engineer</text>
+    <text x="48" y="202" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#8B949E">I build, secure and run production Kubernetes platforms on AWS, Azure and GCP.</text>
+    <rect x="48" y="226" width="105" height="30" rx="15.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="100" y="245.7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#E6EDF3">Kubernetes</text>
+    <rect x="162.6" y="226" width="97" height="30" rx="15.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="211" y="245.7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#E6EDF3">Terraform</text>
+    <rect x="269.14" y="226" width="72" height="30" rx="15.0" fill="#161B22" stroke="#3FB950" stroke-opacity="0.55"/>
+    <text x="305" y="245.7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#E6EDF3">GitOps</text>
+    <rect x="351.5" y="226" width="97" height="30" rx="15.0" fill="#161B22" stroke="#F0B429" stroke-opacity="0.55"/>
+    <text x="400" y="245.7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#E6EDF3">DevSecOps</text>
+    <rect x="458.04" y="226" width="113" height="30" rx="15.0" fill="#161B22" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="514" y="245.7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#E6EDF3">Multi-Cloud</text>
+    <rect x="580.7" y="226" width="177" height="30" rx="15.0" fill="#161B22" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="669" y="245.7" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#E6EDF3">AI/GPU + Web3 infra</text>
+    <circle cx="56" cy="294" r="6" fill="#3FB950"><animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="72" y="299" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="14" fill="#E6EDF3">Open to full-time &amp; freelance<tspan fill="#8B949E">   ·   Islamabad, Pakistan · UTC+5</tspan></text>
+    <circle cx="1010" cy="178" r="138" fill="none" stroke="#30363D" stroke-dasharray="2 6"/>
+    <line x1="1010" y1="178" x2="1010.0" y2="66.0" stroke="#22D3EE" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" values="20;0" dur="1.20s" repeatCount="indefinite"/></line>
+    <circle cx="1010.0" cy="66.0" r="27" fill="#161B22" stroke="#22D3EE" stroke-width="1.5"/>
+    <text x="1010.0" y="70.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#E6EDF3">AWS</text>
+    <line x1="1010" y1="178" x2="1107.0" y2="122.0" stroke="#A78BFA" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" values="20;0" dur="1.35s" repeatCount="indefinite"/></line>
+    <circle cx="1107.0" cy="122.0" r="27" fill="#161B22" stroke="#A78BFA" stroke-width="1.5"/>
+    <text x="1107.0" y="126.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#E6EDF3">Azure</text>
+    <line x1="1010" y1="178" x2="1107.0" y2="234.0" stroke="#22D3EE" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" values="20;0" dur="1.50s" repeatCount="indefinite"/></line>
+    <circle cx="1107.0" cy="234.0" r="27" fill="#161B22" stroke="#22D3EE" stroke-width="1.5"/>
+    <text x="1107.0" y="238.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#E6EDF3">GCP</text>
+    <line x1="1010" y1="178" x2="1010.0" y2="290.0" stroke="#A78BFA" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" values="20;0" dur="1.65s" repeatCount="indefinite"/></line>
+    <circle cx="1010.0" cy="290.0" r="27" fill="#161B22" stroke="#A78BFA" stroke-width="1.5"/>
+    <text x="1010.0" y="294.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#E6EDF3">on-prem</text>
+    <line x1="1010" y1="178" x2="913.0" y2="234.0" stroke="#22D3EE" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" values="20;0" dur="1.80s" repeatCount="indefinite"/></line>
+    <circle cx="913.0" cy="234.0" r="27" fill="#161B22" stroke="#22D3EE" stroke-width="1.5"/>
+    <text x="913.0" y="238.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#E6EDF3">GPU</text>
+    <line x1="1010" y1="178" x2="913.0" y2="122.0" stroke="#A78BFA" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" values="20;0" dur="1.95s" repeatCount="indefinite"/></line>
+    <circle cx="913.0" cy="122.0" r="27" fill="#161B22" stroke="#A78BFA" stroke-width="1.5"/>
+    <text x="913.0" y="126.0" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="11" fill="#E6EDF3">edge</text>
+    <circle cx="1010" cy="178" r="40" fill="#0D1117" stroke="url(#accent)" stroke-width="2.5"/>
+    <text x="1010" y="176" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" font-weight="700" fill="#E6EDF3">k8s</text>
+    <text x="1010" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="9" fill="#8B949E">gitops</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="329" rx="16" fill="none" stroke="#30363D"/>
+</svg>
