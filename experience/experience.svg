@@ -15,7 +15,7 @@
     <circle cx="990" cy="96" r="4" fill="#10B981"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="1128" y="100" text-anchor="end" font-size="12" fill="#A78BFA">01/2026 — Present</text>
     <text x="48" y="122" font-size="12" fill="#22D3EE">Senior DevOps / DevSecOps Engineer  ·  Islamabad</text>
     <line x1="48" y1="132" x2="1132" y2="132" stroke="#A78BFA" stroke-opacity="0.25"/>
-    <text x="48" y="146" font-size="12" fill="#94A3B8">▸ Production Kubernetes on Amazon EKS, Azure AKS &amp; Google GKE: Karpenter, KEDA, Istio mTLS, IRSA, External Secrets</text><text x="48" y="166" font-size="12" fill="#94A3B8">▸ GitOps (ArgoCD / FluxCD) multi-env delivery; modular Terraform with remote state, locking and Checkov scans</text><text x="48" y="186" font-size="12" fill="#94A3B8">▸ DevSecOps gates in GitHub Actions / GitLab CI: Semgrep, SonarQube, OWASP ZAP, Trivy, Gitleaks</text><text x="48" y="206" font-size="12" fill="#94A3B8">▸ Root-caused failed KEDA scale-outs (HPA conflict + Istio metric bypass); Cloudflare WAF, Turnstile, k6 load tests</text><text x="48" y="226" font-size="12" fill="#94A3B8">▸ Blockchain node fleets + load-balanced RPC; incident response and RCA for client production platforms</text>
+    <text x="48" y="146" font-size="12" fill="#94A3B8">▸ 3–5 production clusters on Amazon EKS, Azure AKS &amp; Google GKE: Karpenter, KEDA, Istio mTLS, IRSA, External Secrets</text><text x="48" y="166" font-size="12" fill="#94A3B8">▸ GitOps (ArgoCD / FluxCD) multi-env delivery; modular Terraform with remote state, locking and Checkov scans</text><text x="48" y="186" font-size="12" fill="#94A3B8">▸ DevSecOps gates in GitHub Actions / GitLab CI: Semgrep, SonarQube, OWASP ZAP, Trivy, Gitleaks</text><text x="48" y="206" font-size="12" fill="#94A3B8">▸ KEDA + Karpenter on Spot cut compute cost ~50%; root-caused HPA conflict + Istio metric bypass</text><text x="48" y="226" font-size="12" fill="#94A3B8">▸ Blockchain node fleets + load-balanced RPC; Cloudflare WAF / Turnstile; incident response and RCA</text>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.50s" dur="0.55s" fill="freeze"/>
     <rect x="28" y="274" width="1124" height="146" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.4"/>
@@ -31,12 +31,12 @@
     <text x="1128" y="464" text-anchor="end" font-size="12" fill="#A78BFA">08/2023 — 03/2025</text>
     <text x="48" y="486" font-size="12" fill="#22D3EE">DevOps / DevSecOps Engineer  ·  Islamabad</text>
     <line x1="48" y1="496" x2="1132" y2="496" stroke="#A78BFA" stroke-opacity="0.25"/>
-    <text x="48" y="510" font-size="12" fill="#94A3B8">▸ Jenkins DevSecOps factory: SonarQube → OWASP Dependency-Check → Trivy → Helm → ArgoCD</text><text x="48" y="530" font-size="12" fill="#94A3B8">▸ Kubernetes across cloud + on-prem data center; Nginx / Traefik ingress with automated TLS</text><text x="48" y="550" font-size="12" fill="#94A3B8">▸ Prometheus / Grafana observability; Ansible-driven server configuration</text>
+    <text x="48" y="510" font-size="12" fill="#94A3B8">▸ Jenkins DevSecOps factory: SonarQube → OWASP Dependency-Check → Trivy → Helm → ArgoCD</text><text x="48" y="530" font-size="12" fill="#94A3B8">▸ 3–4 clusters across cloud + on-prem running 30+ microservices; Nginx / Traefik ingress, automated TLS</text><text x="48" y="550" font-size="12" fill="#94A3B8">▸ Prometheus / Grafana observability; Ansible-driven server configuration</text>
   </g>
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.10s" dur="0.55s" fill="freeze"/>
     <rect x="28" y="598" width="1124" height="126" rx="12" fill="#0A101F" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.4"/>
     <text x="48" y="626" font-size="17" font-weight="700" fill="#F8FAFC">Onyx Tech</text>
-    <text x="1128" y="626" text-anchor="end" font-size="12" fill="#A78BFA">2022 — 2023</text>
+    <text x="1128" y="626" text-anchor="end" font-size="12" fill="#A78BFA">10/2022 — 08/2023</text>
     <text x="48" y="648" font-size="12" fill="#22D3EE">Linux System Administrator  ·  Lahore</text>
     <line x1="48" y1="658" x2="1132" y2="658" stroke="#A78BFA" stroke-opacity="0.25"/>
     <text x="48" y="672" font-size="12" fill="#94A3B8">▸ Enterprise RHEL 7/8: LVM / RAID, Apache / DNS / NFS, patching, backup and recovery</text><text x="48" y="692" font-size="12" fill="#94A3B8">▸ SELinux + iptables hardening</text>
