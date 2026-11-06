@@ -10,7 +10,7 @@
     <rect width="900" height="3" fill="url(#accent)"/>
     <circle cx="48" cy="33" r="6" fill="#FF5F57"/><circle cx="66" cy="33" r="6" fill="#FEBC2E"/><circle cx="84" cy="33" r="6" fill="#28C840"/>
     <text x="104" y="38" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="14" fill="#59636E"><tspan fill="#1A7F37">abdul@platform</tspan>:<tspan fill="#0E7490">~</tspan>$ ./streak.sh --live</text>
-    <text x="872" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#59636E">synced 2026-11-06 05:28 UTC</text>
+    <text x="872" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,Menlo,monospace" font-size="13" fill="#59636E">synced 2026-11-06 18:58 UTC</text>
     <rect x="32" y="60" width="269" height="112" rx="12" fill="#F6F8FA" stroke="#D0D7DE"/>
     <rect x="32" y="60" width="269" height="3" rx="1.5" fill="#0E7490"/>
     <text x="167" y="112" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#0E7490">335</text>
